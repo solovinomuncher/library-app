@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+}
+
+body > h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+body > button {
+  justify-self: center;
+  background: black;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+body > form {
+  display: grid;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  justify-self: center;
+}
+
+form > p {
+  display: grid;
+}
+
+.hide {
+  display: none;
+}
+
+.card {
+  border: 1px solid rebeccapurple;
+  margin: 10px;
+  padding: 5px;
+}
+
+.btn-removebook,
+.btn-toggleread {
+  background: lightskyblue;
+  padding: 5px;
+  margin-right: 10px;
+}
